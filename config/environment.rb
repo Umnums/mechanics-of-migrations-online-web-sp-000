@@ -21,7 +21,7 @@ sql = <<-SQL
   hometown TEXT
   )
 SQL
- 
+
 ActiveRecord::Base.connection.execute(sql)
 # put the code to connect to the database here
 
